@@ -12,7 +12,7 @@ pipeline {
                         label "Agent2_1"
                     }
                     steps {
-                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git'
+                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git', branch: 'master'
                         bat 'npm install'
                         bat 'npm update'                       
                         bat 'npx cypress run --record --key cbd0c6fd-ce1a-4beb-95ec-6e8d97df6e68  --parallel'
@@ -25,7 +25,7 @@ pipeline {
                         label "Agent2_2"
                     }
                     steps {
-                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git'
+                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git', branch: 'master'
                         bat 'npm install'
                         bat 'npm update'                       
                         bat 'npx cypress run --record --key cbd0c6fd-ce1a-4beb-95ec-6e8d97df6e68  --parallel'
@@ -38,7 +38,7 @@ pipeline {
                         label "Agent2_3"
                     }
                     steps {
-                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git'
+                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git', branch: 'master'
                         bat 'npm install'
                         bat 'npm update'                       
                         bat 'npx cypress run --record --key cbd0c6fd-ce1a-4beb-95ec-6e8d97df6e68  --parallel'
@@ -51,7 +51,7 @@ pipeline {
                         label "Agent2_4"
                     }
                     steps {
-                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git'
+                        git url: 'https://github.com/Fulanyto07/Paralelo_pipline.git', branch: 'master'
                         bat 'npm install'
                         bat 'npm update'                       
                         bat 'npx cypress run --record --key cbd0c6fd-ce1a-4beb-95ec-6e8d97df6e68  --parallel'
